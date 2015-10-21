@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+ 
+    <servlet>
+        <servlet-name>mainServlet</servlet-name>
+        <servlet-class>com.devcolibri.servlet.MainServlet</servlet-class>
+
+    </servlet>
+    
+    <servlet>
+        <servlet-name>zipServlet</servlet-name>
+        <servlet-class>com.devcolibri.servlet.ZipServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>fileSharing</servlet-name>
+        <servlet-class>com.devcolibri.servlet.FileSharing</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>pageServlet</servlet-name>
+        <servlet-class>com.devcolibri.servlet.PageServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>catServlet</servlet-name>
+        <servlet-class>com.devcolibri.servlet.CatServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>authorization</servlet-name>
+        <servlet-class>com.devcolibri.servlet.AuthorizationServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>pacific</servlet-name>
+        <servlet-class>com.devcolibri.servlet.Pacific</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>authentication</servlet-name>
+        <servlet-class>com.devcolibri.servlet.Authentication</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>createPlayerFleet</servlet-name>
+        <servlet-class>com.devcolibri.servlet.CreatePlayerFleet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>com.devcolibri.servlet.Register</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>checkfield</servlet-name>
+        <servlet-class>com.devcolibri.servlet.Checkfield</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>play</servlet-name>
+        <servlet-class>com.devcolibri.servlet.PlayServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>profile-edit</servlet-name>
+        <servlet-class>com.devcolibri.servlet.ProfileEdit</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>salut</servlet-name>
+        <servlet-class>com.devcolibri.servlet.Salut</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>explosion</servlet-name>
+        <servlet-class>com.devcolibri.servlet.Explosion</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>explosion</servlet-name>
+        <url-pattern>/explosion</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>salut</servlet-name>
+        <url-pattern>/salut</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>profile-edit</servlet-name>
+        <url-pattern>/profile_edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>play</servlet-name>
+        <url-pattern>/play</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>checkfield</servlet-name>
+        <url-pattern>/checkfield</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>createPlayerFleet</servlet-name>
+        <url-pattern>/createPlayerFleet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>authentication</servlet-name>
+        <url-pattern>/authentication</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>pacific</servlet-name>
+        <url-pattern>/pacific</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>authorization</servlet-name>
+        <url-pattern>/battleships</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>mainServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pageServlet</servlet-name>
+        <url-pattern>/page</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>fileSharing</servlet-name>
+        <url-pattern>*.xls</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>catServlet</servlet-name>
+        <url-pattern>/blackCat.png</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>zipServlet</servlet-name>
+        <url-pattern>/inspectZIP</url-pattern>
+    </servlet-mapping>
+</web-app>

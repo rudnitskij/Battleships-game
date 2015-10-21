@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<players>
+    <player>
+        <games_played>10</games_played>
+        <games_won>10</games_won>
+        <name>rudnitskij</name>
+        <password>worldcup</password>
+        <register_date>2015-05-23T16:55:38.010+03:00</register_date>
+        <shots_made>334</shots_made>
+        <shots_precise>200</shots_precise>
+    </player>
+    <player>
+        <games_played>6</games_played>
+        <games_won>6</games_won>
+        <name>svetik</name>
+        <password>svetik</password>
+        <register_date>2015-05-24T16:14:41.193+03:00</register_date>
+        <shots_made>207</shots_made>
+        <shots_precise>120</shots_precise>
+    </player>
+</players>
